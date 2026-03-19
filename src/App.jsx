@@ -463,7 +463,7 @@ function About() {
 // ── Blog ──────────────────────────────────────────────────────────────────────
 function Blog() {
   const [aperto, setAperto] = useState(null);
-  const visibili = posts.filter(p => p.attivo);
+  const visibili = posts.filter(p => p.attivo).sort((a, b) => new Date(b.data) - new Date(a.data));
   return (
     <section id="blog" style={{ background: C.bg2, padding: "7rem 2rem" }}>
       <div style={{ maxWidth: 1200, margin: "0 auto" }}>
