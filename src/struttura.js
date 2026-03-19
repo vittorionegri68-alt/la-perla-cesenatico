@@ -21,9 +21,10 @@ export const STRUTTURA = {
   regione:   "Emilia-Romagna",
 
   // ── LINGUE (switcher in navbar) ───────────────────────────
-  lingue: [
-    { code: "IT", url: "https://La-Perla-Cesenatico.vercel.app/" },
-  ],
+ lingue: [
+  { code: "IT", url: "https://La-Perla-Cesenatico.vercel.app/" },
+  { code: "EN", url: "https://la-perla-cesenatico-en.vercel.app/" },
+],
 
   // ── HERO ──────────────────────────────────────────────────
   heroTagline:    "Cesenatico · Emilia-Romagna · Appartamento",
